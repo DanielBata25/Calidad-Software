@@ -1,0 +1,454 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12ADACF3-3702-4D5F-BD5A-4B40E76E94E5}|School\\Web\\Web.csproj|c:\\users\\usuario\\desktop\\api-colegio\\colegio\\school\\web\\mapping\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12ADACF3-3702-4D5F-BD5A-4B40E76E94E5}|School\\Web\\Web.csproj|solutionrelative:school\\web\\mapping\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC8A9DF-747E-431A-916A-EEBD527DAE11}|School\\Entity\\Entity.csproj|c:\\users\\usuario\\desktop\\api-colegio\\colegio\\school\\entity\\dtos\\colegiodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC8A9DF-747E-431A-916A-EEBD527DAE11}|School\\Entity\\Entity.csproj|solutionrelative:school\\entity\\dtos\\colegiodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1F5F8F2-AD1F-4364-A76B-DACA86A468F1}|School\\Business\\Business.csproj|c:\\users\\usuario\\desktop\\api-colegio\\colegio\\school\\business\\services\\colegioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1F5F8F2-AD1F-4364-A76B-DACA86A468F1}|School\\Business\\Business.csproj|solutionrelative:school\\business\\services\\colegioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12ADACF3-3702-4D5F-BD5A-4B40E76E94E5}|School\\Web\\Web.csproj|c:\\users\\usuario\\desktop\\api-colegio\\colegio\\school\\web\\controllers\\colegiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12ADACF3-3702-4D5F-BD5A-4B40E76E94E5}|School\\Web\\Web.csproj|solutionrelative:school\\web\\controllers\\colegiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12ADACF3-3702-4D5F-BD5A-4B40E76E94E5}|School\\Web\\Web.csproj|c:\\users\\usuario\\desktop\\api-colegio\\colegio\\school\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12ADACF3-3702-4D5F-BD5A-4B40E76E94E5}|School\\Web\\Web.csproj|solutionrelative:school\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12ADACF3-3702-4D5F-BD5A-4B40E76E94E5}|School\\Web\\Web.csproj|c:\\users\\usuario\\desktop\\api-colegio\\colegio\\school\\web\\controllers\\notacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12ADACF3-3702-4D5F-BD5A-4B40E76E94E5}|School\\Web\\Web.csproj|solutionrelative:school\\web\\controllers\\notacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12ADACF3-3702-4D5F-BD5A-4B40E76E94E5}|School\\Web\\Web.csproj|c:\\users\\usuario\\desktop\\api-colegio\\colegio\\school\\web\\controllers\\periodocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12ADACF3-3702-4D5F-BD5A-4B40E76E94E5}|School\\Web\\Web.csproj|solutionrelative:school\\web\\controllers\\periodocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12ADACF3-3702-4D5F-BD5A-4B40E76E94E5}|School\\Web\\Web.csproj|c:\\users\\usuario\\desktop\\api-colegio\\colegio\\school\\web\\controllers\\asignaturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12ADACF3-3702-4D5F-BD5A-4B40E76E94E5}|School\\Web\\Web.csproj|solutionrelative:school\\web\\controllers\\asignaturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12ADACF3-3702-4D5F-BD5A-4B40E76E94E5}|School\\Web\\Web.csproj|c:\\users\\usuario\\desktop\\api-colegio\\colegio\\school\\web\\controllers\\estudiantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12ADACF3-3702-4D5F-BD5A-4B40E76E94E5}|School\\Web\\Web.csproj|solutionrelative:school\\web\\controllers\\estudiantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC8A9DF-747E-431A-916A-EEBD527DAE11}|School\\Entity\\Entity.csproj|c:\\users\\usuario\\desktop\\api-colegio\\colegio\\school\\entity\\dtos\\periododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC8A9DF-747E-431A-916A-EEBD527DAE11}|School\\Entity\\Entity.csproj|solutionrelative:school\\entity\\dtos\\periododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC8A9DF-747E-431A-916A-EEBD527DAE11}|School\\Entity\\Entity.csproj|c:\\users\\usuario\\desktop\\api-colegio\\colegio\\school\\entity\\dtos\\asignaturadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC8A9DF-747E-431A-916A-EEBD527DAE11}|School\\Entity\\Entity.csproj|solutionrelative:school\\entity\\dtos\\asignaturadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC8A9DF-747E-431A-916A-EEBD527DAE11}|School\\Entity\\Entity.csproj|c:\\users\\usuario\\desktop\\api-colegio\\colegio\\school\\entity\\dtos\\notadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC8A9DF-747E-431A-916A-EEBD527DAE11}|School\\Entity\\Entity.csproj|solutionrelative:school\\entity\\dtos\\notadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC8A9DF-747E-431A-916A-EEBD527DAE11}|School\\Entity\\Entity.csproj|c:\\users\\usuario\\desktop\\api-colegio\\colegio\\school\\entity\\dtos\\estudiantedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC8A9DF-747E-431A-916A-EEBD527DAE11}|School\\Entity\\Entity.csproj|solutionrelative:school\\entity\\dtos\\estudiantedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1F5F8F2-AD1F-4364-A76B-DACA86A468F1}|School\\Business\\Business.csproj|c:\\users\\usuario\\desktop\\api-colegio\\colegio\\school\\business\\services\\periodoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1F5F8F2-AD1F-4364-A76B-DACA86A468F1}|School\\Business\\Business.csproj|solutionrelative:school\\business\\services\\periodoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1F5F8F2-AD1F-4364-A76B-DACA86A468F1}|School\\Business\\Business.csproj|c:\\users\\usuario\\desktop\\api-colegio\\colegio\\school\\business\\services\\asignaturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1F5F8F2-AD1F-4364-A76B-DACA86A468F1}|School\\Business\\Business.csproj|solutionrelative:school\\business\\services\\asignaturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1F5F8F2-AD1F-4364-A76B-DACA86A468F1}|School\\Business\\Business.csproj|c:\\users\\usuario\\desktop\\api-colegio\\colegio\\school\\business\\services\\notaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1F5F8F2-AD1F-4364-A76B-DACA86A468F1}|School\\Business\\Business.csproj|solutionrelative:school\\business\\services\\notaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1F5F8F2-AD1F-4364-A76B-DACA86A468F1}|School\\Business\\Business.csproj|c:\\users\\usuario\\desktop\\api-colegio\\colegio\\school\\business\\services\\estudianteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1F5F8F2-AD1F-4364-A76B-DACA86A468F1}|School\\Business\\Business.csproj|solutionrelative:school\\business\\services\\estudianteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12ADACF3-3702-4D5F-BD5A-4B40E76E94E5}|School\\Web\\Web.csproj|c:\\users\\usuario\\desktop\\api-colegio\\colegio\\school\\web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{12ADACF3-3702-4D5F-BD5A-4B40E76E94E5}|School\\Web\\Web.csproj|solutionrelative:school\\web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12ADACF3-3702-4D5F-BD5A-4B40E76E94E5}|School\\Web\\Web.csproj|c:\\users\\usuario\\desktop\\api-colegio\\colegio\\school\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{12ADACF3-3702-4D5F-BD5A-4B40E76E94E5}|School\\Web\\Web.csproj|solutionrelative:school\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91A8BFB-56FF-468C-A863-EDE4A7734D90}|School\\Utilities\\Utilities.csproj|c:\\users\\usuario\\desktop\\api-colegio\\colegio\\school\\utilities\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B91A8BFB-56FF-468C-A863-EDE4A7734D90}|School\\Utilities\\Utilities.csproj|solutionrelative:school\\utilities\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C99AE84-C13F-4FFD-A458-79BE038500CA}|School\\Data\\Data.csproj|c:\\users\\usuario\\desktop\\api-colegio\\colegio\\school\\data\\schooldbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C99AE84-C13F-4FFD-A458-79BE038500CA}|School\\Data\\Data.csproj|solutionrelative:school\\data\\schooldbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C99AE84-C13F-4FFD-A458-79BE038500CA}|School\\Data\\Data.csproj|c:\\users\\usuario\\desktop\\api-colegio\\colegio\\school\\data\\schooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C99AE84-C13F-4FFD-A458-79BE038500CA}|School\\Data\\Data.csproj|solutionrelative:school\\data\\schooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC8A9DF-747E-431A-916A-EEBD527DAE11}|School\\Entity\\Entity.csproj|c:\\users\\usuario\\desktop\\api-colegio\\colegio\\school\\entity\\entities\\nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC8A9DF-747E-431A-916A-EEBD527DAE11}|School\\Entity\\Entity.csproj|solutionrelative:school\\entity\\entities\\nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC8A9DF-747E-431A-916A-EEBD527DAE11}|School\\Entity\\Entity.csproj|c:\\users\\usuario\\desktop\\api-colegio\\colegio\\school\\entity\\entities\\periodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC8A9DF-747E-431A-916A-EEBD527DAE11}|School\\Entity\\Entity.csproj|solutionrelative:school\\entity\\entities\\periodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC8A9DF-747E-431A-916A-EEBD527DAE11}|School\\Entity\\Entity.csproj|c:\\users\\usuario\\desktop\\api-colegio\\colegio\\school\\entity\\entities\\asignatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC8A9DF-747E-431A-916A-EEBD527DAE11}|School\\Entity\\Entity.csproj|solutionrelative:school\\entity\\entities\\asignatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC8A9DF-747E-431A-916A-EEBD527DAE11}|School\\Entity\\Entity.csproj|c:\\users\\usuario\\desktop\\api-colegio\\colegio\\school\\entity\\entities\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC8A9DF-747E-431A-916A-EEBD527DAE11}|School\\Entity\\Entity.csproj|solutionrelative:school\\entity\\entities\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC8A9DF-747E-431A-916A-EEBD527DAE11}|School\\Entity\\Entity.csproj|c:\\users\\usuario\\desktop\\api-colegio\\colegio\\school\\entity\\entities\\colegio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC8A9DF-747E-431A-916A-EEBD527DAE11}|School\\Entity\\Entity.csproj|solutionrelative:school\\entity\\entities\\colegio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ColegioDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Entity\\Dtos\\ColegioDto.cs",
+              "RelativeDocumentMoniker": "School\\Entity\\Dtos\\ColegioDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Entity\\Dtos\\ColegioDto.cs",
+              "RelativeToolTip": "School\\Entity\\Dtos\\ColegioDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:51:23.143Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Web\\Mapping\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "School\\Web\\Mapping\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Web\\Mapping\\AutoMapperProfile.cs",
+              "RelativeToolTip": "School\\Web\\Mapping\\AutoMapperProfile.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwBAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:54:13.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ColegioService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Business\\Services\\ColegioService.cs",
+              "RelativeDocumentMoniker": "School\\Business\\Services\\ColegioService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Business\\Services\\ColegioService.cs",
+              "RelativeToolTip": "School\\Business\\Services\\ColegioService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:17:30.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Web\\Program.cs",
+              "RelativeDocumentMoniker": "School\\Web\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Web\\Program.cs",
+              "RelativeToolTip": "School\\Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:18:39.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AsignaturaController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Web\\Controllers\\AsignaturaController.cs",
+              "RelativeDocumentMoniker": "School\\Web\\Controllers\\AsignaturaController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Web\\Controllers\\AsignaturaController.cs",
+              "RelativeToolTip": "School\\Web\\Controllers\\AsignaturaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:11:59.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ColegioController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Web\\Controllers\\ColegioController.cs",
+              "RelativeDocumentMoniker": "School\\Web\\Controllers\\ColegioController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Web\\Controllers\\ColegioController.cs",
+              "RelativeToolTip": "School\\Web\\Controllers\\ColegioController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:10:59.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EstudianteController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Web\\Controllers\\EstudianteController.cs",
+              "RelativeDocumentMoniker": "School\\Web\\Controllers\\EstudianteController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Web\\Controllers\\EstudianteController.cs",
+              "RelativeToolTip": "School\\Web\\Controllers\\EstudianteController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:11:40.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PeriodoController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Web\\Controllers\\PeriodoController.cs",
+              "RelativeDocumentMoniker": "School\\Web\\Controllers\\PeriodoController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Web\\Controllers\\PeriodoController.cs",
+              "RelativeToolTip": "School\\Web\\Controllers\\PeriodoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:12:22.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NotaController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Web\\Controllers\\NotaController.cs",
+              "RelativeDocumentMoniker": "School\\Web\\Controllers\\NotaController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Web\\Controllers\\NotaController.cs",
+              "RelativeToolTip": "School\\Web\\Controllers\\NotaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:12:38.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EstudianteDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Entity\\Dtos\\EstudianteDto.cs",
+              "RelativeDocumentMoniker": "School\\Entity\\Dtos\\EstudianteDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Entity\\Dtos\\EstudianteDto.cs",
+              "RelativeToolTip": "School\\Entity\\Dtos\\EstudianteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:51:43.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NotaDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Entity\\Dtos\\NotaDto.cs",
+              "RelativeDocumentMoniker": "School\\Entity\\Dtos\\NotaDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Entity\\Dtos\\NotaDto.cs",
+              "RelativeToolTip": "School\\Entity\\Dtos\\NotaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:52:00.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AsignaturaDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Entity\\Dtos\\AsignaturaDto.cs",
+              "RelativeDocumentMoniker": "School\\Entity\\Dtos\\AsignaturaDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Entity\\Dtos\\AsignaturaDto.cs",
+              "RelativeToolTip": "School\\Entity\\Dtos\\AsignaturaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:52:18.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PeriodoDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Entity\\Dtos\\PeriodoDto.cs",
+              "RelativeDocumentMoniker": "School\\Entity\\Dtos\\PeriodoDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Entity\\Dtos\\PeriodoDto.cs",
+              "RelativeToolTip": "School\\Entity\\Dtos\\PeriodoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:52:37.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AsignaturaService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Business\\Services\\AsignaturaService.cs",
+              "RelativeDocumentMoniker": "School\\Business\\Services\\AsignaturaService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Business\\Services\\AsignaturaService.cs",
+              "RelativeToolTip": "School\\Business\\Services\\AsignaturaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:29:32.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PeriodoService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Business\\Services\\PeriodoService.cs",
+              "RelativeDocumentMoniker": "School\\Business\\Services\\PeriodoService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Business\\Services\\PeriodoService.cs",
+              "RelativeToolTip": "School\\Business\\Services\\PeriodoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:29:50.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NotaService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Business\\Services\\NotaService.cs",
+              "RelativeDocumentMoniker": "School\\Business\\Services\\NotaService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Business\\Services\\NotaService.cs",
+              "RelativeToolTip": "School\\Business\\Services\\NotaService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:17:14.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EstudianteService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Business\\Services\\EstudianteService.cs",
+              "RelativeDocumentMoniker": "School\\Business\\Services\\EstudianteService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Business\\Services\\EstudianteService.cs",
+              "RelativeToolTip": "School\\Business\\Services\\EstudianteService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:26:11.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Web\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "School\\Web\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Web\\Properties\\launchSettings.json",
+              "RelativeToolTip": "School\\Web\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-29T21:33:11.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Nota.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Entity\\Entities\\Nota.cs",
+              "RelativeDocumentMoniker": "School\\Entity\\Entities\\Nota.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Entity\\Entities\\Nota.cs",
+              "RelativeToolTip": "School\\Entity\\Entities\\Nota.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:15:28.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SchoolDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Data\\SchoolDbContext.cs",
+              "RelativeDocumentMoniker": "School\\Data\\SchoolDbContext.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Data\\SchoolDbContext.cs",
+              "RelativeToolTip": "School\\Data\\SchoolDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:15:53.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SchoolDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Data\\SchoolDbContextFactory.cs",
+              "RelativeDocumentMoniker": "School\\Data\\SchoolDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Data\\SchoolDbContextFactory.cs",
+              "RelativeToolTip": "School\\Data\\SchoolDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:16:35.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Utilities\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "School\\Utilities\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Utilities\\ApiResponse.cs",
+              "RelativeToolTip": "School\\Utilities\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:18:14.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Web\\appsettings.json",
+              "RelativeDocumentMoniker": "School\\Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Web\\appsettings.json",
+              "RelativeToolTip": "School\\Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-29T21:21:18.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Periodo.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Entity\\Entities\\Periodo.cs",
+              "RelativeDocumentMoniker": "School\\Entity\\Entities\\Periodo.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Entity\\Entities\\Periodo.cs",
+              "RelativeToolTip": "School\\Entity\\Entities\\Periodo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:15:04.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Asignatura.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Entity\\Entities\\Asignatura.cs",
+              "RelativeDocumentMoniker": "School\\Entity\\Entities\\Asignatura.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Entity\\Entities\\Asignatura.cs",
+              "RelativeToolTip": "School\\Entity\\Entities\\Asignatura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:14:47.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Estudiante.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Entity\\Entities\\Estudiante.cs",
+              "RelativeDocumentMoniker": "School\\Entity\\Entities\\Estudiante.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Entity\\Entities\\Estudiante.cs",
+              "RelativeToolTip": "School\\Entity\\Entities\\Estudiante.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:14:30.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Colegio.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Entity\\Entities\\Colegio.cs",
+              "RelativeDocumentMoniker": "School\\Entity\\Entities\\Colegio.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Api-Colegio\\colegio\\School\\Entity\\Entities\\Colegio.cs",
+              "RelativeToolTip": "School\\Entity\\Entities\\Colegio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:14:14.5Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

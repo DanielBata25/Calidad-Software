@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestión Colegio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <h1><i class="fa-solid fa-school"></i> Sistema Colegio</h1>
+
+  <!-- 📚 Colegios -->
+  <section>
+    <h2><i class="fa-solid fa-building-columns"></i> Colegios</h2>
+    <form id="form-colegio" class="form-grid">
+      <input type="text" id="colegio-nombre" placeholder="Nombre del colegio" required>
+      <button type="submit"><i class="fa-solid fa-plus"></i> Guardar Colegio</button>
+    </form>
+    <table id="tabla-colegios">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Max Estudiantes</th>
+          <th>Estudiantes</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <!-- 📝 Asignaturas -->
+  <section>
+    <h2><i class="fa-solid fa-book-open"></i> Asignaturas</h2>
+    <form id="form-asignatura" class="form-grid">
+      <input type="text" id="asignatura-nombre" placeholder="Nombre asignatura" required>
+      <button type="submit"><i class="fa-solid fa-plus"></i> Guardar Asignatura</button>
+    </form>
+    <table id="tabla-asignaturas">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <!-- 👨‍🎓 Estudiantes -->
+  <section>
+    <h2><i class="fa-solid fa-user-graduate"></i> Estudiantes</h2>
+    <form id="form-estudiante" class="form-grid">
+      <input type="text" id="estudiante-nombre" placeholder="Nombre estudiante" required>
+      <select id="estudiante-colegioId" required>
+        <option value="">Seleccione un colegio</option>
+      </select>
+      <button type="submit"><i class="fa-solid fa-plus"></i> Guardar Estudiante</button>
+    </form>
+    <table id="tabla-estudiantes">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Colegio</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <!-- 📅 Periodos -->
+  <section>
+    <h2><i class="fa-solid fa-calendar-days"></i> Periodos</h2>
+    <form id="form-periodo" class="form-grid">
+      <input type="text" id="periodo-nombre" placeholder="Nombre periodo" required>
+      <input type="number" id="periodo-porcentaje" placeholder="Porcentaje" required>
+      <button type="submit"><i class="fa-solid fa-plus"></i> Guardar Periodo</button>
+    </form>
+    <table id="tabla-periodos">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Porcentaje</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <!-- 🏆 Notas -->
+  <section>
+    <h2><i class="fa-solid fa-clipboard-list"></i> Notas</h2>
+    <form id="form-nota" class="form-grid">
+      <input type="number" id="nota-score" placeholder="Puntaje" required>
+      <select id="nota-estudianteId" required>
+        <option value="">Seleccione estudiante</option>
+      </select>
+      <select id="nota-asignaturaId" required>
+        <option value="">Seleccione asignatura</option>
+      </select>
+      <select id="nota-periodoId" required>
+        <option value="">Seleccione periodo</option>
+      </select>
+      <button type="submit"><i class="fa-solid fa-plus"></i> Guardar Nota</button>
+    </form>
+    <table id="tabla-notas">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Puntaje</th>
+          <th>Estudiante</th>
+          <th>Asignatura</th>
+          <th>Periodo</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
