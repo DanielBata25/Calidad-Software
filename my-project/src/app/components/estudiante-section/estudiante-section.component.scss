@@ -1,0 +1,19 @@
+﻿:host {
+  display: block;
+}
+
+.utility-forms {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+@media (max-width: 640px) {
+  .utility-forms {
+    grid-template-columns: 1fr;
+  }
+}

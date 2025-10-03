@@ -1,0 +1,14 @@
+﻿<div class="operation" [class.disabled]="disabled">
+  <button type="button" class="operation-header" (click)="toggle()">
+    <span class="method-pill" [ngClass]="methodClass()">{{ method }}</span>
+    <div class="header-text">
+      <span class="path">{{ path }}</span>
+      <small *ngIf="description">{{ description }}</small>
+    </div>
+    <span class="chevron" [class.expanded]="expanded()">&#9662;</span>
+  </button>
+
+  <div class="operation-body" *ngIf="expanded()">
+    <ng-content />
+  </div>
+</div>

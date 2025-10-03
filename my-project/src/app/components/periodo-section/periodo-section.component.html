@@ -1,0 +1,56 @@
+﻿<section class="crud-card periodo-card">
+  <div class="crud-card__header">
+    <div class="crud-card__title">
+      <span aria-hidden="true" class="crud-card__icon">🗓️</span>
+      <div>
+        <h2>Periodos</h2>
+        <p>Administra los periodos de evaluacion.</p>
+      </div>
+    </div>
+    <div class="crud-card__actions">
+      <button type="button" class="btn btn-primary" (click)="loadPeriodos()" [disabled]="loading()">
+        Consultar
+      </button>
+    </div>
+  </div>
+
+  <div class="crud-card__body">
+    <form class="crud-form crud-form--inline" [formGroup]="createForm" (ngSubmit)="createPeriodo()">
+      <div class="crud-field">
+        <label class="visually-hidden" for="periodo-nombre">Nombre del periodo</label>
+        <input id="periodo-nombre" type="text" formControlName="nombre" placeholder="Nombre del periodo" />
+      </div>
+      <div class="crud-field">
+        <label class="visually-hidden" for="periodo-porcentaje">Porcentaje</label>
+        <input id="periodo-porcentaje" type="number" formControlName="porcentaje" placeholder="Porcentaje" />
+      </div>
+      <button type="submit" class="btn btn-primary" [disabled]="createForm.invalid || loading()">
+        Guardar Periodo
+      </button>
+    </form>
+  </div>
+
+  <div class="table-wrapper" *ngIf="periodos().length > 0; else emptyPeriodo">
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Porcentaje</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let periodo of periodos()">
+          <td>{{ periodo.nombre }}</td>
+          <td>{{ periodo.porcentaje }}%</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <ng-template #emptyPeriodo>
+    <div class="empty-state">Realiza una consulta para ver los periodos registrados.</div>
+  </ng-template>
+
+  @if (lastMessage()) {
+    <p class="status-message">{{ lastMessage() }}</p>
+  }
+</section>

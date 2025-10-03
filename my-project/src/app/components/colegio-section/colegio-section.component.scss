@@ -1,0 +1,55 @@
+﻿:host {
+  display: block;
+}
+
+.utility-forms {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.no-data {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.selected-block {
+  background: var(--surface-muted);
+  border-radius: var(--radius-md);
+  padding: 1.1rem 1.25rem;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.selected-block h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.selected-block h4 {
+  margin: 0.5rem 0 0.25rem;
+  font-size: 0.95rem;
+}
+
+.selected-name {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.selected-meta {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 640px) {
+  .utility-forms {
+    grid-template-columns: 1fr;
+  }
+}

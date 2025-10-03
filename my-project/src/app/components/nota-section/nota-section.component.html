@@ -1,0 +1,68 @@
+﻿<section class="crud-card nota-card">
+  <div class="crud-card__header">
+    <div class="crud-card__title">
+      <span aria-hidden="true" class="crud-card__icon">📝</span>
+      <div>
+        <h2>Notas</h2>
+        <p>Registra calificaciones para cada estudiante.</p>
+      </div>
+    </div>
+    <div class="crud-card__actions">
+      <button type="button" class="btn btn-primary" (click)="loadNotas()" [disabled]="loading()">
+        Consultar
+      </button>
+    </div>
+  </div>
+
+  <div class="crud-card__body">
+    <form class="crud-form crud-form--inline" [formGroup]="createForm" (ngSubmit)="createNota()">
+      <div class="crud-field">
+        <label class="visually-hidden" for="nota-score">Calificacion</label>
+        <input id="nota-score" type="number" step="0.1" formControlName="score" placeholder="Calificacion" />
+      </div>
+      <div class="crud-field">
+        <label class="visually-hidden" for="nota-estudiante">Código de estudiante</label>
+        <input id="nota-estudiante" type="number" formControlName="estudianteId" placeholder="Código del estudiante" />
+      </div>
+      <div class="crud-field">
+        <label class="visually-hidden" for="nota-asignatura">Código de asignatura</label>
+        <input id="nota-asignatura" type="number" formControlName="asignaturaId" placeholder="Código de la asignatura" />
+      </div>
+      <div class="crud-field">
+        <label class="visually-hidden" for="nota-periodo">Código de periodo</label>
+        <input id="nota-periodo" type="number" formControlName="periodoId" placeholder="Código del periodo" />
+      </div>
+      <button type="submit" class="btn btn-primary" [disabled]="createForm.invalid || loading()">
+        Guardar Nota
+      </button>
+    </form>
+  </div>
+
+  <div class="table-wrapper" *ngIf="notas().length > 0; else emptyNotas">
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Estudiante</th>
+          <th>Asignatura</th>
+          <th>Periodo</th>
+          <th>Calificacion</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let nota of notas()">
+          <td>{{ nota.estudianteNombre }}</td>
+          <td>{{ nota.asignaturaNombre }}</td>
+          <td>{{ nota.periodoNombre }}</td>
+          <td>{{ nota.score }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <ng-template #emptyNotas>
+    <div class="empty-state">Usa consultar para visualizar las notas registradas.</div>
+  </ng-template>
+
+  @if (lastMessage()) {
+    <p class="status-message">{{ lastMessage() }}</p>
+  }
+</section>
