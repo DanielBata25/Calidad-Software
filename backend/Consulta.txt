@@ -73,7 +73,8 @@ INSERT INTO Colegios (Nombre, MaxEstudiantes)
 VALUES ('Tecnico Superior', 1000);
 
 INSERT INTO Asignaturas (Nombre)
-VALUES ('Matemáticas'), ('Lengua'), ('Ciencias'), ('Historia'), ('Inglés');
+VALUES ('Matemáticas'), ('Programación'), ('Etica'), ('Deporte'), ('Inglés');
 
 INSERT INTO Periodos (Nombre, Porcentaje)
 VALUES ('Periodo 1', 25.0), ('Periodo 2', 30.0), ('Periodo 3', 20.0), ('Periodo 4', 25.0);
+
