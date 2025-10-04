@@ -1,19 +1,33 @@
-﻿using System;
-using System.IO; // Asegúrate de incluir este espacio de nombres
-using System.Linq; // Necesario para el método .Count()
+using System;
+using System.IO;
+using System.Linq;
+using System.Text.RegularExpressions;
 
 class Program
 {
     static void Main(string[] args)
     {
-        //string rutaArchivo = @"C:\ruta\a\tu\play.txt"; C:\Users\batah\OneDrive\Documents\LOCs\LOCs\txt
+        // Ruta del archivo a analizar
         string rutaArchivo = @"C:\Users\batah\OneDrive\Documents\LOCs\LOCs\txt\play1.txt";
+
         try
         {
-            // Lee todas las líneas del archivo y cuenta cuántas hay
-            int numeroLineas = File.ReadLines(rutaArchivo).Count();
+            // Lee todas las líneas
+            var lineas = File.ReadAllLines(rutaArchivo);
 
-            Console.WriteLine($"El archivo '{rutaArchivo}' tiene {numeroLineas} líneas.");
+            // 1. Contar solo líneas que NO estén vacías ni sean espacios
+            int numeroLineas = lineas.Count(l => !string.IsNullOrWhiteSpace(l));
+
+            // 2. Contar funciones/métodos usando Regex básico
+            // Patrón busca palabras clave + un nombre + paréntesis ()
+            //Que es Regex "Detecta si una línea de código parece una función"
+            Regex regexFuncion = new Regex(@"\b(public|private|protected|internal|static)\s+[\w\<\>\[\]]+\s+\w+\s*\(.*\)");
+
+            int numeroFunciones = lineas.Count(l => regexFuncion.IsMatch(l));
+
+            // Mostrar resultados
+            Console.WriteLine($"El archivo '{rutaArchivo}' tiene {numeroLineas} líneas (sin contar espacios).");
+            Console.WriteLine($"El archivo contiene {numeroFunciones} funciones/métodos.");
         }
         catch (FileNotFoundException)
         {
@@ -25,4 +39,3 @@ class Program
         }
     }
 }
-
