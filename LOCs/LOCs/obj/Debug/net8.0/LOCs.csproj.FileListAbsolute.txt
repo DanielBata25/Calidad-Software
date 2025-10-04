@@ -1,0 +1,14 @@
+C:\Users\batah\OneDrive\Documents\LOCs\LOCs\bin\Debug\net8.0\LOCs.exe
+C:\Users\batah\OneDrive\Documents\LOCs\LOCs\bin\Debug\net8.0\LOCs.deps.json
+C:\Users\batah\OneDrive\Documents\LOCs\LOCs\bin\Debug\net8.0\LOCs.runtimeconfig.json
+C:\Users\batah\OneDrive\Documents\LOCs\LOCs\bin\Debug\net8.0\LOCs.dll
+C:\Users\batah\OneDrive\Documents\LOCs\LOCs\bin\Debug\net8.0\LOCs.pdb
+C:\Users\batah\OneDrive\Documents\LOCs\LOCs\obj\Debug\net8.0\LOCs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\batah\OneDrive\Documents\LOCs\LOCs\obj\Debug\net8.0\LOCs.AssemblyInfoInputs.cache
+C:\Users\batah\OneDrive\Documents\LOCs\LOCs\obj\Debug\net8.0\LOCs.AssemblyInfo.cs
+C:\Users\batah\OneDrive\Documents\LOCs\LOCs\obj\Debug\net8.0\LOCs.csproj.CoreCompileInputs.cache
+C:\Users\batah\OneDrive\Documents\LOCs\LOCs\obj\Debug\net8.0\LOCs.dll
+C:\Users\batah\OneDrive\Documents\LOCs\LOCs\obj\Debug\net8.0\refint\LOCs.dll
+C:\Users\batah\OneDrive\Documents\LOCs\LOCs\obj\Debug\net8.0\LOCs.pdb
+C:\Users\batah\OneDrive\Documents\LOCs\LOCs\obj\Debug\net8.0\LOCs.genruntimeconfig.cache
+C:\Users\batah\OneDrive\Documents\LOCs\LOCs\obj\Debug\net8.0\ref\LOCs.dll
