@@ -1,0 +1,79 @@
+-- Crear base de datos
+IF DB_ID('SchoolDb') IS NOT NULL
+    DROP DATABASE SchoolDb;
+GO
+CREATE DATABASE SchoolDb;
+GO
+USE SchoolDb;
+GO
+
+-- =======================
+-- Tabla: Colegios
+-- =======================
+CREATE TABLE Colegios (
+    Id INT IDENTITY PRIMARY KEY,
+    Nombre NVARCHAR(200) NOT NULL,
+    MaxEstudiantes INT NOT NULL
+);
+
+-- =======================
+-- Tabla: Estudiantes
+-- =======================
+CREATE TABLE Estudiantes (
+    Id INT IDENTITY PRIMARY KEY,
+    Nombre NVARCHAR(200) NOT NULL,
+    ColegioId INT NOT NULL,
+    CONSTRAINT FK_Estudiantes_Colegios FOREIGN KEY (ColegioId)
+        REFERENCES Colegios(Id) ON DELETE CASCADE
+);
+
+-- =======================
+-- Tabla: Asignaturas
+-- =======================
+CREATE TABLE Asignaturas (
+    Id INT IDENTITY PRIMARY KEY,
+    Nombre NVARCHAR(100) NOT NULL
+);
+
+-- =======================
+-- Tabla: Periodos
+-- =======================
+CREATE TABLE Periodos (
+    Id INT IDENTITY PRIMARY KEY,
+    Nombre NVARCHAR(50) NOT NULL,
+    Porcentaje DECIMAL(5,2) NOT NULL
+);
+
+-- =======================
+-- Tabla: Notas
+-- =======================
+CREATE TABLE Notas (
+    Id INT IDENTITY PRIMARY KEY,
+    Score DECIMAL(18,2) NOT NULL,
+
+    EstudianteId INT NOT NULL,
+    AsignaturaId INT NOT NULL,
+    PeriodoId INT NOT NULL,
+
+    CONSTRAINT FK_Notas_Estudiantes FOREIGN KEY (EstudianteId)
+        REFERENCES Estudiantes(Id) ON DELETE NO ACTION,
+
+    CONSTRAINT FK_Notas_Asignaturas FOREIGN KEY (AsignaturaId)
+        REFERENCES Asignaturas(Id) ON DELETE NO ACTION,
+
+    CONSTRAINT FK_Notas_Periodos FOREIGN KEY (PeriodoId)
+        REFERENCES Periodos(Id) ON DELETE NO ACTION
+);
+GO
+
+-- =======================
+-- Datos iniciales
+-- =======================
+INSERT INTO Colegios (Nombre, MaxEstudiantes)
+VALUES ('Tecnico Superior', 1000);
+
+INSERT INTO Asignaturas (Nombre)
+VALUES ('Matemáticas'), ('Lengua'), ('Ciencias'), ('Historia'), ('Inglés');
+
+INSERT INTO Periodos (Nombre, Porcentaje)
+VALUES ('Periodo 1', 25.0), ('Periodo 2', 30.0), ('Periodo 3', 20.0), ('Periodo 4', 25.0);
